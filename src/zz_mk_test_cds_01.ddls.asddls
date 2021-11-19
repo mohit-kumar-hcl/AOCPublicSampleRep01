@@ -23,9 +23,9 @@ key airport_uiid,
 @UI:{   lineItem: [ { position: 10 } ],  identification: [{ position: 10 }]  } 
     airport_id,
 @UI:{   lineItem: [ { position: 10 } ],  identification: [{ position: 10 }]  }
-    name as Name,
+    name,
  @UI:{   lineItem: [ { position: 10 } ],  identification: [{ position: 10 }]  }
-    city as City,
+    city,
 @UI:{   lineItem: [ { position: 10 } ],  identification: [{ position: 10 }]  }    
-    country as Country
+    country
 }
