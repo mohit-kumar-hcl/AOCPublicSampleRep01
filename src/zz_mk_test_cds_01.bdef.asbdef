@@ -1,0 +1,17 @@
+managed implementation in class zbp_z_mk_test_cds_01 unique;
+with draft;
+//strict; //Comment this line in to enable strict mode. The strict mode is prerequisite to be future proof regarding syntax and to be able to release your BO.
+
+define behavior for ZZ_MK_TEST_CDS_01 //alias <alias_name>
+persistent table ZZMK_DB_TEST_01
+draft table ZZMK_DB_TEST_02
+lock master total etag airport_id
+//authorization master ( instance )
+//etag master <field_name>
+{
+  create;
+  update;
+  delete;
+
+  field ( readonly, numbering : managed ) airport_uiid;
+}

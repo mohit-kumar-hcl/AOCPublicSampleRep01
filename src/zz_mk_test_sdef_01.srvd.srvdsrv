@@ -1,0 +1,4 @@
+@EndUserText.label: 'Test MK Service Definition 01'
+define service ZZ_MK_TEST_SDEF_01 {
+  expose ZZ_MK_TEST_CDS_01;
+}
